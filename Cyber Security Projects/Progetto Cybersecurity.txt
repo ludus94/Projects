@@ -1,0 +1,62 @@
+Cognome			Nome			Matricola
+Lettieri		Fabrizio		0622700882
+Russo			Ludovico		0622700881
+
+==============================================================================
+Titolo Progetto: Studio di fattibilità per la definizione di tool crittografici 
+riguardo un protocollo sicuro per il Preserving Contact Tracing.
+==============================================================================
+
+Tema del progetto:
+
+Realizzazione di uno studio di fattibilità riguardante l'utilizzo dei tool 
+crittografici per la protezione dei dati dei cittadini, con la possibilità
+di definire nuovi protocolli di comunicazione (supposizione, definizione 
+di un nuovo protocollo o l'utilizzo di protocolli già presenti in letteratura) 
+per tali dati (comunicati su un canale pubblico).
+In particolare lo studio si concentrerà sulla comunicazione tra il laboratorio analisi
+e il cittadino infetto, che comunicherà di essere infetto o meno al server(o un gruppo di essi).
+
+==============================================================================
+
+Entità coinvolte:
+
+Cittadino non infetto: è un cittadino al quale al momento non è arrivata
+comunicazione di essere infetto.
+
+Cittadino infetto: è un cittadino al quale è già arrivata la comunicazione
+di essere infetto.
+
+Laboratorio analisi: è il posto in cui può recarsi un cittadino per
+effettuare dei test e verificare la positività al virus.
+
+Cittadino malintenzionato: è il cittadino che vuole conoscere i dati 
+del cittadino infetto, violando la sua privacy.
+
+Server governativo: Punto di raccolta dei dati delle persone riconosciute 
+come infette. (Si considererà 
+in una seconda analisi come l' utilizzo di un sistema centralizzato o decentralizzato
+possa inficiare sulla raccolta dei dati).
+
+==============================================================================
+
+Obiettivi del progetto:
+
+Definire un protocollo di comunicazione sicuro tra il laboratorio analisi, il cittadino infetto e 
+Server, in modo da evitare che un cittadino malintenzionato possa venire a conoscenza
+dei dati di un presunto infetto, oppure cerca di inviare delle chiavi al server, senza 
+conoscere il codice attribuitogli dal laboratorio analisi.
+
+==============================================================================
+
+Task previsti:
+1) Studio dei tool crittografici da utilizzare per capire quale schema di 
+sicurezza adottare (o una composizione di essi).
+
+2) Progettazione di un protocollo per la comunicazione dei dati tra il paziente infetto e il server, 
+mediante un codice che il cittadino utilizza per comunicare la sua positività.
+
+3) Analisi della validità dello schema progettato al punto 2)
+
+4) Implementazione di parti del protocollo (si deciderà in corso d'opera dopo il completamento del primo task richiesto)
+

@@ -1,0 +1,62 @@
+from BTree import BTree
+
+if __name__ == '__main__':
+    b = BTree(3)
+    # b.insert(2, 'a')
+    # b.search(2)
+    # b.search(3)
+    # b.insert(20, 'b')
+    # b.insert(4, 'c')
+    # b.insert(3, 'd')
+    # b.insert(9, 'g')
+    # b.insert(5, 'e')
+    # b.search(8)
+    # b.insert(6, 'f')
+    # b.insert(7, 'h')
+    # b.insert(0, 'j')
+    # b.insert(8, 'm')
+    # b.insert(10, 'n')
+    # b.insert(1, 'p')
+    # b.insert(22, 'zz')
+    # b.insert(11, 'kk')
+    #
+    # b.search(20)
+    # b.search(2)
+    # b.search(5)
+    # b.search(10)
+    # b.search(25)
+    # b.search(6)
+    # b.search(7)
+    # print(b.before(6)[1])
+    # print(b.before(20)[1])
+    # print(b.before(4)[1])
+    # print(b.before(2)[1])
+    #
+    # b.remove(5)
+    #
+    # print(b.remove(20))
+    # print(b.remove(6))
+    # print("a")
+
+    b.insert(1, 'f')
+    b.insert(2, 'h')
+    b.insert(3, 'j')
+    b.insert(4, 'm')
+    b.insert(5, 'n')
+    b.insert(6, 'p')
+    b.insert(7, 'zz')
+
+    b.remove(4)
+    b.remove(3)
+    b.before(55)
+
+    # b.insert(2, 'f')
+    # b.insert(4, 'h')
+    # b.insert(9, 'j')
+    # b.insert(6, 'm')
+    # b.insert(8, 'n')
+    # b.insert(7, 'p')
+    #
+    # b.remove(2)
+    # b.before(55)
+
